@@ -7,8 +7,8 @@ microstepping_z = 6
 microstepping_h = 6
 microstepping_e = 6
 
-current_y = 0.6
-current_x = 0.6
+current_y = 0.9
+current_x = 1.0
 current_z = 0.6
 current_h = 0.6
 current_e = 0.6
@@ -19,9 +19,11 @@ steps_pr_mm_z = 25.0
 steps_pr_mm_h = 25.0
 steps_pr_mm_e = 52.3
 
+direction_x =  -1
 direction_y =  -1
 direction_z =  -1
 direction_h =  -1
+direction_e =  -1
 
 [Endstops]
 end_stop_x1_stops = x_pos
@@ -32,3 +34,6 @@ end_stop_z1_stops = z_neg, h_neg
 sensor_E = SEMITEC-104GT-2
 temp_chart_E = SEMITEC-104GT-2
 temp_chart_HBP = B57560G104F
+
+[Homing]
+home_x = 0
