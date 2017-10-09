@@ -1,3 +1,11 @@
+
+metry]
+offset_x = -0.19
+offset_y = 0.05
+travel_y = 0.23
+travel_x = -0.25
+offset_z = 0.0001
+
 [Steppers]
 slave_z = H
 
@@ -8,7 +16,7 @@ microstepping_h = 6
 microstepping_e = 6
 
 current_y = 0.9
-current_x = 1.0
+current_x = 0.9
 current_z = 0.6
 current_h = 0.6
 current_e = 0.6
@@ -25,15 +33,15 @@ direction_z =  -1
 direction_h =  -1
 direction_e =  -1
 
-[Endstops]
-end_stop_x1_stops = x_pos
-end_stop_y1_stops = y_neg
-end_stop_z1_stops = z_neg, h_neg
-
 [Heaters]
 sensor_E = SEMITEC-104GT-2
 temp_chart_E = SEMITEC-104GT-2
 temp_chart_HBP = B57560G104F
+
+[Endstops]
+end_stop_X1_stops = x_pos
+end_stop_Y1_stops = y_neg
+end_stop_Z1_stops = z_neg, h_neg
 
 [Homing]
 home_x = 0
