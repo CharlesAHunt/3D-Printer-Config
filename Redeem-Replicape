@@ -27,7 +27,7 @@ steps_pr_mm_h = 25.0
 steps_pr_mm_e = 52.3
 
 direction_x =  -1
-direction_y =  -1
+direction_y =  1
 direction_z =  -1
 direction_h =  -1
 direction_e =  -1
@@ -36,6 +36,7 @@ direction_e =  -1
 sensor_E = SEMITEC-104GT-2
 temp_chart_E = SEMITEC-104GT-2
 temp_chart_HBP = B57560G104F
+max_temp_E = 280.0
 
 [Endstops]
 end_stop_X1_stops = x_pos
