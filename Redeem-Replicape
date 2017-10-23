@@ -34,6 +34,9 @@ direction_e =  -1
 
 [Heaters]
 sensor_E = SEMITEC-104GT-2
+pid_Kp_E = 0.0491
+pid_Ti_E = 76.6277
+pid_Td_E = 5.5287 
 temp_chart_E = SEMITEC-104GT-2
 temp_chart_HBP = B57560G104F
 max_temp_E = 280.0
