@@ -1,6 +1,6 @@
 [Geometry]
 offset_x = -0.19
-offset_y = 0.05
+offset_y = 0.00
 travel_y = 0.23
 travel_x = -0.25
 offset_z = 0.0001
@@ -14,8 +14,8 @@ microstepping_z = 6
 microstepping_h = 6
 microstepping_e = 6
 
-current_y = 0.9
-current_x = 0.9
+current_y = 0.8
+current_x = 0.8
 current_z = 0.6
 current_h = 0.6
 current_e = 0.6
@@ -28,8 +28,8 @@ steps_pr_mm_e = 52.3
 
 direction_x =  -1
 direction_y =  1
-direction_z =  -1
-direction_h =  -1
+direction_z =  1
+direction_h =  1
 direction_e =  -1
 
 [Heaters]
